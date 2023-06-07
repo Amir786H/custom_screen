@@ -73,7 +73,6 @@ export default function CreatePost(props) {
             .then(response => response.json())
             // Displaying results to console
             .then(json => 
-                // console.log('post response',json)
                 navigation.navigate('Active')
             );
     }
